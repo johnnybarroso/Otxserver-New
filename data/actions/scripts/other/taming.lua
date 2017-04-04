@@ -1,17 +1,6 @@
 local TYPE_ITEM, TYPE_MONSTER, TYPE_NPC = 0, 2, 3
 
 local config = {
-	[23557]	= {
-		name = 'walker',
-		id = 43,
-		type = TYPE_MONSTER,
-		chance = 30,
-		fail = {
-			{run = true, text = 'The Walker disappeared.'},
-			{sound = '*pling*', text = 'The walker seems incompatible with this control unit.'}
-		},
-		success = {sound = '*brzzz*', text = 'You tamed the walker.'}
-	}
 	[5907] = {
 		name = 'bear',
 		id = 3,
@@ -296,6 +285,28 @@ local config = {
 			{sound = 'GRRRRRRRRRRR', text = 'The shock head is growling at you.'}
 		},
 		success = {sound = 'Grrrrrrr', text = 'You tamed the shock head.'}
+	},
+	[23557]	= {
+		name = 'walker',
+		id = 43,
+		type = TYPE_MONSTER,
+		chance = 30,
+		fail = {
+			{run = true, text = 'The Walker disappeared.'},
+			{sound = '*pling*', text = 'The walker seems incompatible with this control unit.'}
+		},
+		success = {sound = '*brzzz*', text = 'You tamed the walker.'}
+	},
+	[23810]	= {
+		name = 'noble lion',
+		id = 40,
+		type = TYPE_MONSTER,
+		chance = 30,
+		fail = {
+			{run = true, text = 'The noble lion fled.'},
+			{sound = 'GRRRRRRRRR', text = 'The noble lion majestically rejects your amulet.'}
+		},
+		success = {sound = 'Grrr', text = 'The noble lion will now accompany you as friend and ally.'}
 	}
 }
 
