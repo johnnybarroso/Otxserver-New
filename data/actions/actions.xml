@@ -241,6 +241,7 @@
 	<action itemid="22608" script="other/taming.lua" />
 	<action itemid="23810" script="other/taming.lua" />
 	<action itemid="23557" script="other/taming.lua" />
+	<action itemid="23810" script="other/taming.lua" />
 
 	<!-- insectoid cell -->
 	<action actionid="61611" script="insectoid cell/insectoidcell.lua" /> 
